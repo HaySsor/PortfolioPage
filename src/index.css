@@ -1,0 +1,25 @@
+:root{
+    --secondColor : #F5F5F1;
+    --firstColor: white;
+    --accentColorFirst : #00afb9;
+    --accentColorSecond : #FED9B7;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.html{
+    font-size: 10px;
+}
+
+body{
+    font-family: "Roboto", serif;
+}
+
+.app-wrapper{
+    padding: 10px;
+}

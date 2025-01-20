@@ -1,0 +1,24 @@
+.navigationWrapper {
+  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.leftSide {
+  display: flex;
+  align-items: center;
+}
+
+.navigationIconBox{
+    text-decoration: none;
+    color: #333;
+    width: 30px;
+    aspect-ratio: 1/1;
+    cursor: pointer;
+
+    i{
+        font-size: 2rem;
+    }
+}
