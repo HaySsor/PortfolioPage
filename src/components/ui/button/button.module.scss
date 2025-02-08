@@ -1,0 +1,28 @@
+.systemButton {
+  padding: 10px 20px;
+  border: none;
+  font-size: 1.4rem;
+  border-radius: 10px;
+}
+
+.systemFullButton {
+  background-color: #333;
+  color: white;
+  transition: backgroundColor 0.3s;
+
+  &:hover {
+    background-color: #4b4848;
+  }
+}
+
+.systemBorderButton {
+  background-color: white;
+  border: 1px solid var(--textGray);
+  color: var(--textGray);
+  transition: backgroundColor 0.3s, color 0.3s;
+
+  &:hover {
+    background-color: var(--textGray);
+    color: white;
+  }
+}
