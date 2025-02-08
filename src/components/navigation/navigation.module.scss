@@ -4,6 +4,11 @@
   align-items: center;
   justify-content: space-between;
   position: relative;
+  @media (width > 1260px) {
+    max-width: 1260px;
+    margin: 0 auto;
+    padding-inline: 0;
+  }
 }
 
 .leftSide {
@@ -19,6 +24,10 @@
     cursor: pointer;
 
     i{
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
+}
+
+.rightSide{
+  
 }

@@ -1,25 +1,31 @@
-:root{
-    --secondColor : #F5F5F1;
-    --firstColor: white;
-    --accentColorFirst : #00afb9;
-    --accentColorSecond : #FED9B7;
+:root {
+  --secondColor: #f5f5f1;
+  --firstColor: white;
+  --accentColorFirst: #00afb9;
+  --accentColorSecond: #fed9b7;
+  --textGray: #737373;
 }
 
-
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.html{
-    font-size: 10px;
+html {
+  font-size: 10px;
 }
 
-body{
-    font-family: "Roboto", serif;
+body {
+  font-family: 'Roboto', serif;
 }
 
-.app-wrapper{
-    padding: 10px;
+.app-wrapper {
+  @media (width > 1260px) {
+    width: 1260px;
+    margin: 0 auto;
+  }
+}
+.section-color{
+  background-color: var(--secondColor);
 }
